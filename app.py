@@ -480,7 +480,7 @@ st.set_page_config(page_title="경우의 수 · 채점 연습", page_icon="🎯"
 if "results" not in st.session_state:
     st.session_state.results = {}   # {문항 인덱스: True/False}
 
-st.caption("코드스튜디오 입시연구소")
+
 st.title("경우의 수 · 채점 연습")
 
 # ---- 사이드바: 학번(이어서 하기) ----
